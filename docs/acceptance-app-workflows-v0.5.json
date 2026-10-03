@@ -1,0 +1,190 @@
+{
+  "version": "0.5.0",
+  "domains": [
+    "notes",
+    "music",
+    "audiobooks",
+    "photos",
+    "video"
+  ],
+  "transport": "MCP stdio",
+  "checks": [
+    {
+      "name": "notes classification, color zero, filters and readback",
+      "ok": true
+    },
+    {
+      "name": "music import, metadata, lyrics, CUE, favorites and rescan",
+      "ok": true
+    },
+    {
+      "name": "audiobook directory import, chapters, position, rescan and removal",
+      "ok": true
+    },
+    {
+      "name": "photo directory scan, lookup, favorite and album membership",
+      "ok": true
+    },
+    {
+      "name": "video library, custom collection, listing and favorite round trip",
+      "ok": true
+    }
+  ],
+  "cleanup": [
+    {
+      "name": "synthetic video collection",
+      "ok": true
+    },
+    {
+      "name": "synthetic video library",
+      "ok": true
+    },
+    {
+      "name": "synthetic photo album",
+      "ok": true
+    },
+    {
+      "name": "synthetic photo source",
+      "ok": true
+    },
+    {
+      "name": "synthetic audiobook library",
+      "ok": true
+    },
+    {
+      "name": "synthetic music playlist favorite",
+      "ok": true
+    },
+    {
+      "name": "synthetic music artist favorite",
+      "ok": true
+    },
+    {
+      "name": "synthetic music album favorite",
+      "ok": true
+    },
+    {
+      "name": "synthetic music song favorite",
+      "ok": true
+    },
+    {
+      "name": "synthetic music playlist",
+      "ok": true
+    },
+    {
+      "name": "synthetic music source",
+      "ok": true
+    },
+    {
+      "name": "synthetic note",
+      "ok": true
+    },
+    {
+      "name": "synthetic note category",
+      "ok": true
+    },
+    {
+      "name": "synthetic files moved to recycle bin",
+      "ok": true
+    }
+  ],
+  "limitations": [],
+  "successfulOperations": [
+    "audiobooks.chapter-position",
+    "audiobooks.chapter-remove",
+    "audiobooks.chapters",
+    "audiobooks.directory-add",
+    "audiobooks.directory-remove",
+    "audiobooks.external-status",
+    "audiobooks.import-status",
+    "audiobooks.libraries",
+    "audiobooks.library",
+    "audiobooks.library-create",
+    "audiobooks.library-delete",
+    "audiobooks.rescan",
+    "audiobooks.scan-status",
+    "files.info",
+    "files.list",
+    "files.mkdir",
+    "files.trash",
+    "files.upload",
+    "music.cue",
+    "music.directories",
+    "music.favorite-add",
+    "music.favorite-albums",
+    "music.favorite-artists",
+    "music.favorite-playlists",
+    "music.favorite-remove",
+    "music.favorite-songs",
+    "music.library-add",
+    "music.library-remove",
+    "music.library-rescan",
+    "music.lyrics",
+    "music.lyrics-update",
+    "music.playlist-add",
+    "music.playlist-create",
+    "music.playlist-delete",
+    "music.playlists",
+    "music.song",
+    "music.songs",
+    "music.tasks",
+    "notes.categories",
+    "notes.category-create",
+    "notes.category-delete",
+    "notes.category-list",
+    "notes.create",
+    "notes.delete",
+    "notes.info",
+    "notes.label",
+    "notes.list",
+    "notes.move",
+    "notes.search",
+    "photos.album-add",
+    "photos.album-create",
+    "photos.album-delete",
+    "photos.album-remove",
+    "photos.albums",
+    "photos.by-path",
+    "photos.directories",
+    "photos.directory-add",
+    "photos.directory-remove",
+    "photos.directory-scan",
+    "photos.favorite",
+    "photos.favorites",
+    "photos.items",
+    "photos.photo-albums",
+    "system.status",
+    "video.collection",
+    "video.collection-create",
+    "video.collection-dismiss",
+    "video.collections",
+    "video.favorite-add",
+    "video.favorite-remove",
+    "video.libraries",
+    "video.library-create",
+    "video.library-delete"
+  ],
+  "webVersion": "2.3.2026082801",
+  "stderrEmpty": true,
+  "passed": 5,
+  "failed": 0,
+  "cleanupRechecked": true,
+  "newOperationsExercised": 38,
+  "scope": {
+    "notes": "Ordinary notebook; category move and color 0 set/remove.",
+    "music": "Synthetic FLAC with two CUE tracks; song, album, artist and playlist favorite add/remove; lyrics and source indexing.",
+    "audiobooks": "Synthetic library backed by internal NAS storage; chapters, import, rescan, position and directory removal.",
+    "photos": "Synthetic JPEG and ordinary album; source indexing, membership and favorites.",
+    "video": "Custom empty collection in a normal scraping-enabled library; listing, favorites and dismissal. Non-scraping libraries reject custom collection creation with N120039."
+  },
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "device identity",
+      "account and connection details",
+      "installed application inventory",
+      "execution timestamps",
+      "test run identifiers"
+    ]
+  }
+}

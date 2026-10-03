@@ -1,0 +1,11 @@
+export { Client, formEncode } from './client.js';
+export { ConfigStore, importSession, configPath } from './config.js';
+export { READ_APIS, readApi, status } from './catalog.js';
+export * from './files.js';
+export { ZspaceError, redact } from './errors.js';
+export { OPERATIONS, operation, operationInfo, parameters, runOperation } from './operations.js';
+export { inventory, coverage } from './applications.js';
+export { createMcpServer, startMcp } from './mcp.js';
+export { android, ANDROID_APPS } from './android.js';
+export { SessionManager } from './session.js';
+export { AgentStore, AgentRuntime, agentConnection } from './agents.js';

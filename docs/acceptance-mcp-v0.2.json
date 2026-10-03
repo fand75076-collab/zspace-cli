@@ -1,0 +1,696 @@
+{
+  "version": "0.2.0",
+  "transport": "MCP stdio",
+  "checks": [
+    {
+      "name": "system.polling",
+      "ok": true
+    },
+    {
+      "name": "system.recent",
+      "ok": true
+    },
+    {
+      "name": "system.versions",
+      "ok": true
+    },
+    {
+      "name": "system.usage",
+      "ok": true
+    },
+    {
+      "name": "system.services",
+      "ok": true
+    },
+    {
+      "name": "system.processes",
+      "ok": true
+    },
+    {
+      "name": "system.network",
+      "ok": true
+    },
+    {
+      "name": "storage.pools",
+      "ok": true
+    },
+    {
+      "name": "storage.hardware",
+      "ok": true
+    },
+    {
+      "name": "storage.status",
+      "ok": true
+    },
+    {
+      "name": "storage.capabilities",
+      "ok": true
+    },
+    {
+      "name": "apps.list",
+      "ok": true
+    },
+    {
+      "name": "files.tasks",
+      "ok": true
+    },
+    {
+      "name": "files.categories",
+      "ok": true
+    },
+    {
+      "name": "files.recycle-config",
+      "ok": true
+    },
+    {
+      "name": "system.status",
+      "ok": true
+    },
+    {
+      "name": "files.roots",
+      "ok": true
+    },
+    {
+      "name": "files.recycle",
+      "ok": true
+    },
+    {
+      "name": "files.recent",
+      "ok": true
+    },
+    {
+      "name": "files.download-tasks",
+      "ok": true
+    },
+    {
+      "name": "notes.list",
+      "ok": true
+    },
+    {
+      "name": "notes.categories",
+      "ok": true
+    },
+    {
+      "name": "notes.config",
+      "ok": true
+    },
+    {
+      "name": "notes.usage",
+      "ok": true
+    },
+    {
+      "name": "photos.albums",
+      "ok": true
+    },
+    {
+      "name": "photos.home",
+      "ok": true
+    },
+    {
+      "name": "photos.directories",
+      "ok": true
+    },
+    {
+      "name": "photos.timeline",
+      "ok": true
+    },
+    {
+      "name": "photos.config",
+      "ok": true
+    },
+    {
+      "name": "photos.scan",
+      "ok": true
+    },
+    {
+      "name": "photos.ai-status",
+      "ok": true
+    },
+    {
+      "name": "photos.ai-tasks",
+      "ok": true
+    },
+    {
+      "name": "photos.ai-events",
+      "ok": true
+    },
+    {
+      "name": "photos.shares",
+      "ok": true
+    },
+    {
+      "name": "photos.database",
+      "ok": true
+    },
+    {
+      "name": "video.libraries",
+      "ok": true
+    },
+    {
+      "name": "video.directories",
+      "ok": true
+    },
+    {
+      "name": "video.latest",
+      "ok": true
+    },
+    {
+      "name": "video.suggested",
+      "ok": true
+    },
+    {
+      "name": "video.recent",
+      "ok": true
+    },
+    {
+      "name": "video.playlists",
+      "ok": true
+    },
+    {
+      "name": "video.favorites",
+      "ok": true
+    },
+    {
+      "name": "video.filters",
+      "ok": true
+    },
+    {
+      "name": "video.shares",
+      "ok": true
+    },
+    {
+      "name": "video.config",
+      "ok": true
+    },
+    {
+      "name": "video.scan-schedule",
+      "ok": true
+    },
+    {
+      "name": "music.songs",
+      "ok": true
+    },
+    {
+      "name": "music.overview",
+      "ok": true
+    },
+    {
+      "name": "music.latest",
+      "ok": true
+    },
+    {
+      "name": "music.playlists",
+      "ok": true
+    },
+    {
+      "name": "music.artists",
+      "ok": true
+    },
+    {
+      "name": "music.albums",
+      "ok": true
+    },
+    {
+      "name": "music.genres",
+      "ok": true
+    },
+    {
+      "name": "music.favorites",
+      "ok": true
+    },
+    {
+      "name": "music.recent",
+      "ok": true
+    },
+    {
+      "name": "music.status",
+      "ok": true
+    },
+    {
+      "name": "music.config",
+      "ok": true
+    },
+    {
+      "name": "audiobooks.libraries",
+      "ok": true
+    },
+    {
+      "name": "audiobooks.recent",
+      "ok": true
+    },
+    {
+      "name": "downloads.list",
+      "ok": true
+    },
+    {
+      "name": "downloads.settings",
+      "ok": true
+    },
+    {
+      "name": "downloads.protocols",
+      "ok": true
+    },
+    {
+      "name": "downloads.directories",
+      "ok": true
+    },
+    {
+      "name": "downloads.engine",
+      "ok": true
+    },
+    {
+      "name": "downloads.details",
+      "ok": true
+    },
+    {
+      "name": "downloads.share-list",
+      "ok": true
+    },
+    {
+      "name": "docker.containers",
+      "ok": true
+    },
+    {
+      "name": "docker.stats",
+      "ok": true
+    },
+    {
+      "name": "docker.images",
+      "ok": true
+    },
+    {
+      "name": "docker.networks",
+      "ok": true
+    },
+    {
+      "name": "docker.status",
+      "ok": true
+    },
+    {
+      "name": "docker.info",
+      "ok": true
+    },
+    {
+      "name": "docker.storage",
+      "ok": true
+    },
+    {
+      "name": "docker.pull-tasks",
+      "ok": true
+    },
+    {
+      "name": "compose.list",
+      "ok": true
+    },
+    {
+      "name": "compose.tasks",
+      "ok": true
+    },
+    {
+      "name": "vm.list",
+      "ok": true
+    },
+    {
+      "name": "vm.host",
+      "ok": true
+    },
+    {
+      "name": "vm.service",
+      "ok": true
+    },
+    {
+      "name": "vm.pci",
+      "ok": true
+    },
+    {
+      "name": "antivirus.status",
+      "ok": true
+    },
+    {
+      "name": "antivirus.database",
+      "ok": true
+    },
+    {
+      "name": "antivirus.whitelist",
+      "ok": true
+    },
+    {
+      "name": "antivirus.quarantine",
+      "ok": true
+    },
+    {
+      "name": "antivirus.usage",
+      "ok": true
+    },
+    {
+      "name": "antivirus.schedule",
+      "ok": true
+    },
+    {
+      "name": "camera.list",
+      "ok": true
+    },
+    {
+      "name": "camera.storage",
+      "ok": true
+    },
+    {
+      "name": "ddns.list",
+      "ok": true
+    },
+    {
+      "name": "wechat.directory",
+      "ok": true
+    },
+    {
+      "name": "wechat.config",
+      "ok": true
+    },
+    {
+      "name": "wechat.accounts",
+      "ok": true
+    },
+    {
+      "name": "wechat.messages",
+      "ok": true
+    },
+    {
+      "name": "ai.models",
+      "ok": true
+    },
+    {
+      "name": "ai.status",
+      "ok": true
+    },
+    {
+      "name": "ai.downloads",
+      "ok": true
+    },
+    {
+      "name": "ai.disks",
+      "ok": true
+    },
+    {
+      "name": "images.engine",
+      "ok": true
+    },
+    {
+      "name": "images.downloads",
+      "ok": true
+    },
+    {
+      "name": "backup.tasks",
+      "ok": true
+    },
+    {
+      "name": "backup.usb-tasks",
+      "ok": true
+    },
+    {
+      "name": "backup.usb-config",
+      "ok": true
+    },
+    {
+      "name": "sync.status",
+      "ok": true
+    },
+    {
+      "name": "office.status",
+      "ok": true
+    },
+    {
+      "name": "office.config",
+      "ok": true
+    },
+    {
+      "name": "office.fonts",
+      "ok": true
+    },
+    {
+      "name": "vault.status",
+      "ok": true
+    },
+    {
+      "name": "vault.download-status",
+      "ok": true
+    },
+    {
+      "name": "collections.list",
+      "ok": true
+    },
+    {
+      "name": "search.config",
+      "ok": true
+    },
+    {
+      "name": "search.exclusions",
+      "ok": true
+    },
+    {
+      "name": "search.index-status",
+      "ok": true
+    },
+    {
+      "name": "classes.courses",
+      "ok": true
+    },
+    {
+      "name": "recovery.disks",
+      "ok": true
+    },
+    {
+      "name": "sharing.links",
+      "ok": true
+    },
+    {
+      "name": "sharing.statistics",
+      "ok": true
+    },
+    {
+      "name": "sharing.internal",
+      "ok": true
+    },
+    {
+      "name": "sharing.received",
+      "ok": true
+    },
+    {
+      "name": "sharing.sent",
+      "ok": true
+    },
+    {
+      "name": "users.list",
+      "ok": true
+    },
+    {
+      "name": "security.firewall",
+      "ok": true
+    },
+    {
+      "name": "security.access",
+      "ok": true
+    },
+    {
+      "name": "settings.load",
+      "ok": true
+    },
+    {
+      "name": "settings.ssh",
+      "ok": true
+    },
+    {
+      "name": "storage.external",
+      "ok": true
+    },
+    {
+      "name": "storage.migration",
+      "ok": true
+    },
+    {
+      "name": "services.samba",
+      "ok": true
+    },
+    {
+      "name": "services.webdav",
+      "ok": true
+    },
+    {
+      "name": "services.ftp",
+      "ok": true
+    },
+    {
+      "name": "services.dlna",
+      "ok": true
+    },
+    {
+      "name": "services.tm",
+      "ok": true
+    },
+    {
+      "name": "ftp-backup.status",
+      "ok": true
+    },
+    {
+      "name": "ftp-backup.tasks",
+      "ok": true
+    },
+    {
+      "name": "remote.support",
+      "ok": true
+    },
+    {
+      "name": "thunder.status",
+      "ok": true
+    },
+    {
+      "name": "hsk.status",
+      "ok": true
+    },
+    {
+      "name": "apps.inventory",
+      "ok": true
+    },
+    {
+      "name": "apps.coverage",
+      "ok": true
+    },
+    {
+      "name": "apps.tasks",
+      "ok": true
+    },
+    {
+      "name": "apps.docker-tasks",
+      "ok": true
+    },
+    {
+      "name": "docker.inspect",
+      "ok": true
+    },
+    {
+      "name": "docker.logs",
+      "ok": true
+    },
+    {
+      "name": "docker.top",
+      "ok": true
+    },
+    {
+      "name": "docker.image",
+      "ok": true
+    },
+    {
+      "name": "docker.network",
+      "ok": true
+    },
+    {
+      "name": "compose.containers",
+      "ok": true
+    },
+    {
+      "name": "compose.file",
+      "ok": true
+    },
+    {
+      "name": "compose.logs",
+      "ok": true
+    },
+    {
+      "name": "vm.inspect",
+      "ok": true
+    },
+    {
+      "name": "vm.disks",
+      "ok": true
+    },
+    {
+      "name": "vm.snapshots",
+      "ok": true
+    },
+    {
+      "name": "vm.network",
+      "ok": true
+    },
+    {
+      "name": "vm.schedules",
+      "ok": true
+    },
+    {
+      "name": "music.album",
+      "ok": true
+    },
+    {
+      "name": "search.files",
+      "ok": true
+    },
+    {
+      "name": "search.documents",
+      "ok": true
+    },
+    {
+      "name": "notes CRUD + pin + cleanup",
+      "ok": true
+    },
+    {
+      "name": "notes category CRUD + cleanup",
+      "ok": true
+    },
+    {
+      "name": "music empty list CRUD + cleanup",
+      "ok": true
+    },
+    {
+      "name": "photos empty list CRUD + cleanup",
+      "ok": true
+    },
+    {
+      "name": "audiobooks empty list CRUD + cleanup",
+      "ok": true
+    }
+  ],
+  "cleanup": [
+    {
+      "operation": "notes.delete",
+      "ok": true
+    },
+    {
+      "operation": "notes.category-delete",
+      "ok": true
+    },
+    {
+      "operation": "music.playlist-delete",
+      "ok": true
+    },
+    {
+      "operation": "photos.album-delete",
+      "ok": true
+    },
+    {
+      "operation": "audiobooks.library-delete",
+      "ok": true
+    }
+  ],
+  "limitations": [
+    {
+      "name": "hdmi.status",
+      "code": "HTTP_ERROR"
+    },
+    {
+      "name": "hdmi.fonts",
+      "code": "HTTP_ERROR"
+    }
+  ],
+  "tools": 54,
+  "stderrEmpty": true,
+  "passed": 161,
+  "failed": 0,
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "device identity",
+      "account and connection details",
+      "installed application inventory",
+      "execution timestamps",
+      "test run identifiers"
+    ]
+  }
+}

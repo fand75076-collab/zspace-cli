@@ -1,0 +1,170 @@
+{
+  "version": "0.1.0",
+  "tests": [
+    {
+      "name": "session and core health",
+      "passed": true,
+      "durationMs": 306
+    },
+    {
+      "name": "read system.polling",
+      "passed": true,
+      "durationMs": 137
+    },
+    {
+      "name": "read system.recent",
+      "passed": true,
+      "durationMs": 137
+    },
+    {
+      "name": "read system.versions",
+      "passed": true,
+      "durationMs": 120
+    },
+    {
+      "name": "read system.usage",
+      "passed": true,
+      "durationMs": 124
+    },
+    {
+      "name": "read system.services",
+      "passed": true,
+      "durationMs": 385
+    },
+    {
+      "name": "read system.processes",
+      "passed": true,
+      "durationMs": 388
+    },
+    {
+      "name": "read system.network",
+      "passed": true,
+      "durationMs": 216
+    },
+    {
+      "name": "read storage.pools",
+      "passed": true,
+      "durationMs": 130
+    },
+    {
+      "name": "read storage.hardware",
+      "passed": true,
+      "durationMs": 125
+    },
+    {
+      "name": "read storage.status",
+      "passed": true,
+      "durationMs": 127
+    },
+    {
+      "name": "read storage.capabilities",
+      "passed": true,
+      "durationMs": 123
+    },
+    {
+      "name": "read apps.list",
+      "passed": true,
+      "durationMs": 155
+    },
+    {
+      "name": "read files.tasks",
+      "passed": true,
+      "durationMs": 125
+    },
+    {
+      "name": "read files.categories",
+      "passed": true,
+      "durationMs": 123
+    },
+    {
+      "name": "read files.recycle-config",
+      "passed": true,
+      "durationMs": 119
+    },
+    {
+      "name": "discover accessible personal roots",
+      "passed": true,
+      "durationMs": 123
+    },
+    {
+      "name": "dry run sends no mutation",
+      "passed": true,
+      "durationMs": 74
+    },
+    {
+      "name": "create fixture directory",
+      "passed": true,
+      "durationMs": 166
+    },
+    {
+      "name": "upload and download Unicode filename",
+      "passed": true,
+      "durationMs": 299
+    },
+    {
+      "name": "upload and download 2 MiB binary",
+      "passed": true,
+      "durationMs": 422
+    },
+    {
+      "name": "upload and download empty file",
+      "passed": true,
+      "durationMs": 299
+    },
+    {
+      "name": "upload and download JSON file",
+      "passed": true,
+      "durationMs": 303
+    },
+    {
+      "name": "explicit pagination and complete pagination",
+      "passed": true,
+      "durationMs": 275
+    },
+    {
+      "name": "existing upload is refused without changing contents",
+      "passed": true,
+      "durationMs": 131
+    },
+    {
+      "name": "existing local download is refused",
+      "passed": true,
+      "durationMs": 125
+    },
+    {
+      "name": "rename, copy, move and task completion",
+      "passed": true,
+      "durationMs": 1210
+    },
+    {
+      "name": "query retained task by id",
+      "passed": true,
+      "durationMs": 246
+    },
+    {
+      "name": "protected root rejected before mutation",
+      "passed": true,
+      "durationMs": 75
+    },
+    {
+      "name": "recycle only the fixture directory and confirm recovery entry",
+      "passed": true,
+      "durationMs": 723
+    }
+  ],
+  "cleanup": "fixture-confirmed-in-recycle-bin",
+  "passed": true,
+  "compatibility": {
+    "webVersion": "2.3.2026082801"
+  },
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "device identity",
+      "account and connection details",
+      "installed application inventory",
+      "execution timestamps",
+      "test run identifiers"
+    ]
+  }
+}

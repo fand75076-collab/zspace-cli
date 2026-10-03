@@ -1,0 +1,105 @@
+{
+  "version": "0.4.0",
+  "transport": "Independent MCP stdio clients",
+  "checks": [
+    {
+      "name": "two independent MCP clients initialize from generated connection JSON",
+      "ok": true
+    },
+    {
+      "name": "capability discovery returns policy, schema and packaged agent guide",
+      "ok": true
+    },
+    {
+      "name": "live status through Agent policy",
+      "ok": true
+    },
+    {
+      "name": "live application coverage through Agent policy",
+      "ok": true
+    },
+    {
+      "name": "configured root is the only root returned",
+      "ok": true
+    },
+    {
+      "name": "NAS sibling path denied",
+      "ok": true
+    },
+    {
+      "name": "ungranted action rejected by MCP schema",
+      "ok": true
+    },
+    {
+      "name": "write requires per-call confirmation",
+      "ok": true
+    },
+    {
+      "name": "dry-run remains offline and does not create directory",
+      "ok": true
+    },
+    {
+      "name": "create owned synthetic directory",
+      "ok": true
+    },
+    {
+      "name": "upload synthetic Unicode file through MCP",
+      "ok": true
+    },
+    {
+      "name": "local output outside policy denied",
+      "ok": true
+    },
+    {
+      "name": "download synthetic file and verify bytes plus SHA-256",
+      "ok": true
+    },
+    {
+      "name": "file listing supports the advertised mtime sort",
+      "ok": true
+    },
+    {
+      "name": "rename owned file and read back",
+      "ok": true
+    },
+    {
+      "name": "create synthetic note and verify body",
+      "ok": true
+    },
+    {
+      "name": "update synthetic note and verify body",
+      "ok": true
+    },
+    {
+      "name": "delete synthetic note and verify search absence",
+      "ok": true
+    },
+    {
+      "name": "move owned directory to recycle bin and verify absence",
+      "ok": true
+    },
+    {
+      "name": "revoke policy while both MCP clients remain running",
+      "ok": true
+    }
+  ],
+  "cleanup": [],
+  "limitations": [
+    "Session rotation/expiry tested with synthetic HTTP fixtures; live source validation uses the current authorized session.",
+    "Application policy is not vendor OAuth or an OS sandbox.",
+    "NAS symlink resolution and other firmware models remain unverified."
+  ],
+  "stderrEmpty": true,
+  "passed": 20,
+  "failed": 0,
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "device identity",
+      "account and connection details",
+      "installed application inventory",
+      "execution timestamps",
+      "test run identifiers"
+    ]
+  }
+}

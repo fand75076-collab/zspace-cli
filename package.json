@@ -1,0 +1,47 @@
+{
+  "name": "@fand75076-collab/zspace-cli",
+  "version": "0.5.1",
+  "description": "极空间 NAS CLI and MCP — application operations, files, media, containers and monitoring",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "zspace": "bin/zspace.js",
+    "zspace-mcp": "bin/zspace-mcp.js"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "docs/",
+    "NOTICE.md",
+    "SECURITY.md",
+    "skills/"
+  ],
+  "scripts": {
+    "privacy-check": "node scripts/check-public.mjs",
+    "test": "node --test test/*.test.js",
+    "check": "node scripts/check.mjs",
+    "test:live": "node scripts/live-test.mjs",
+    "test:live:apps": "node scripts/live-apps-test.mjs",
+    "test:live:android": "node scripts/live-android-test.mjs",
+    "docs": "node scripts/generate-docs.mjs",
+    "test:live:agent": "node scripts/live-agent-test.mjs",
+    "test:live:workflows": "node scripts/live-app-workflows-test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fand75076-collab/zspace-cli.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.2.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.2.0"
+  }
+}

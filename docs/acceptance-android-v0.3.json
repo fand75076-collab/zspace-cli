@@ -1,0 +1,116 @@
+{
+  "version": "0.3.0",
+  "transport": "MCP stdio / Android UI",
+  "checks": [
+    {
+      "name": "MCP tools/list",
+      "ok": true
+    },
+    {
+      "name": "MCP resources/read",
+      "ok": true
+    },
+    {
+      "name": "Android apps without NAS credentials",
+      "ok": true
+    },
+    {
+      "name": "Android device and logged app foreground",
+      "ok": true
+    },
+    {
+      "name": "Visible screen bounds",
+      "ok": true
+    },
+    {
+      "name": "MCP confirm gate",
+      "ok": true
+    },
+    {
+      "name": "Dry run leaves activity unchanged",
+      "ok": true
+    },
+    {
+      "name": "Stale target is rejected",
+      "ok": true
+    },
+    {
+      "name": "Open bookLib",
+      "ok": true
+    },
+    {
+      "name": "Book library and home tabs",
+      "ok": true
+    },
+    {
+      "name": "Open family",
+      "ok": true
+    },
+    {
+      "name": "Open mobileBackup",
+      "ok": true
+    },
+    {
+      "name": "Open comics",
+      "ok": true
+    },
+    {
+      "name": "Comics settings tab",
+      "ok": true
+    },
+    {
+      "name": "Comics category navigation",
+      "ok": true
+    },
+    {
+      "name": "Open unsaved category dialog",
+      "ok": true
+    },
+    {
+      "name": "Open refuses to discard an edit",
+      "ok": true
+    },
+    {
+      "name": "Chinese set-text and fresh target",
+      "ok": true
+    },
+    {
+      "name": "Cancel unsaved input",
+      "ok": true
+    },
+    {
+      "name": "Back from category",
+      "ok": true
+    },
+    {
+      "name": "Return NAS home",
+      "ok": true
+    },
+    {
+      "name": "Scroll home up and down",
+      "ok": true
+    },
+    {
+      "name": "Back at home is refused",
+      "ok": true
+    }
+  ],
+  "limitations": [
+    "Visible UI bridge, not direct NAS business APIs",
+    "Input test never submits; no library item or backup job is created"
+  ],
+  "androidAppVersion": "2.5.632",
+  "stderrEmpty": true,
+  "passed": 23,
+  "failed": 0,
+  "privacy": {
+    "sanitized": true,
+    "excluded": [
+      "device identity",
+      "account and connection details",
+      "installed application inventory",
+      "execution timestamps",
+      "test run identifiers"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+coverage/
+*.tgz
+.DS_Store
+.env
+.env.*
+!.env.example
+work/
+private/
+*.har
+*session*.json
+config.json
+*.log
+live-results/
+__pycache__/
+*.py[cod]
