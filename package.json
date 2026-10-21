@@ -38,7 +38,7 @@
     "url": "https://github.com/fand75076-collab/zspace-cli.git"
   },
   "dependencies": {
-    "@modelcontextprotocol/server": "2.2.0",
+    "@modelcontextprotocol/server": "2.3.0",
     "zod": "4.6.5"
   },
   "devDependencies": {
